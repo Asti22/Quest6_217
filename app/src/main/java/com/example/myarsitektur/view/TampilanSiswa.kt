@@ -45,5 +45,11 @@ fun TampilSiswa(
             }
 
             Spacer(modifier = Modifier.height(dimensionResource(R.dimen.d16dp)))
+            Button(
+                modifier = Modifier.fillMaxWidth(),
+                onClick = onBackButtonClicked
+            ) {
+                Text(text = stringResource(R.string.back))
+            }
 
 }
